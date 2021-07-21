@@ -1,0 +1,134 @@
+.container {
+  display: flex;
+  margin: 20px;
+  width: 750px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.msg {
+  position: fixed;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  top: 45px;
+  background-color: #333;
+  width: 500px;
+  border-radius: 7px;
+}
+
+.msg p {
+  color: #eee;
+}
+
+.msg-button {
+  padding: 0;
+  margin: 0;
+  width: 54px;
+  background-color: transparent;
+}
+
+.msg-button:hover {
+  background-color: transparent;
+}
+
+.conatiner-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #eee;
+  border-radius: 7px 7px 0 0;
+  width: 750px;
+  height: 60px;
+  padding: 15px;
+}
+
+textarea {
+  padding: 15px;
+  max-width: 750px;
+  min-width: 750px;
+  max-height: 700px;
+  min-height: 250px;
+  color: #686868;
+  border-color: #eee;
+  border-radius: 0 0 7px 7px;
+  outline: none;
+  font-size: 16px;
+}
+
+p {
+  font-weight: bold;
+  font-size: 17px;
+  color: #686868;
+}
+
+.container-button {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+button {
+  padding: 12px;
+  width: 155px;
+  height: 55px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #444;
+  margin: 4px 0px 4px 0px;
+  background-color: #77dd77;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transition: all 0.3s ease;
+  background-color: #90ee90;
+}
+
+.container-comments {
+  display: flex;
+  flex-direction: column;
+  margin-top: 65px;
+  width: 100%;
+  border-radius: 7px;
+  background-color: #eee;
+}
+
+.title-comments {
+  width: 100%;
+  background-color: #e3e3e3;
+  border-radius: 7px 7px 0 0;
+}
+
+.title-comments p {
+  font-size: 27px;
+  padding: 20px;
+}
+
+.container-result {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 15px;
+  background-color: #eee;
+  border-radius: 7px;
+}
+
+.text-result {
+  font-size: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: justify;
+  color: #333;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid #e3e3e3;
+  padding-bottom: 50px;
+  padding-top: 35px;
+}
