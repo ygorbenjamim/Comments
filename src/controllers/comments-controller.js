@@ -7,10 +7,11 @@ module.exports = {
     return res.json(comment);
   },
   async create(req, res){
-    const { text } = req.body;
-    const data = { text };
-    const comment = await Comment.create(data);
-    console.log('A request was made to create a comment.');
+    const { email, text } = req.body;
+    const data = { email, text };
+    const comment = await Comment.create(data, (error) => {
+      error ? console.log(`Error: ${error}`) : console.log('A request was made to create a comment.');
+    });
     return res.json(comment);
   }
 }

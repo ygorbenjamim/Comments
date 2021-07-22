@@ -1,6 +1,7 @@
 const mongo = require('mongoose');
 
 const dataSchema = mongo.Schema({
+  email: String,
   text: String
 }, { timestamp: true });
 
