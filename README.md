@@ -12,5 +12,5 @@
 
 
 <p align="center">
-  ![comments](https://user-images.githubusercontent.com/22685987/147883532-0bff0acf-6b20-4d91-869b-190ce6b7064d.png)
+ <img src="https://user-images.githubusercontent.com/22685987/147883532-0bff0acf-6b20-4d91-869b-190ce6b7064d.png" />
 </p>
