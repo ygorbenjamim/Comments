@@ -5,7 +5,9 @@
 ![home](https://user-images.githubusercontent.com/22685987/147883391-7092056b-c58c-4e56-9028-e06389c10e3e.png)
 
 
-![comments](https://user-images.githubusercontent.com/22685987/147883422-1993c5e9-594f-4eeb-bbba-becc3205418d.png)
+<p aling="center">
+  <img src="https://user-images.githubusercontent.com/22685987/147883422-1993c5e9-594f-4eeb-bbba-becc3205418d.png" />
+</p>
 
 
 ## Descrição
